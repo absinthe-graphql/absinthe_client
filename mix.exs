@@ -20,6 +20,8 @@ defmodule Absinthe.Client.MixProject do
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
-    []
+    [
+      {:absinthe, "~> 1.5.0-alpha.4"}
+    ]
   end
 end

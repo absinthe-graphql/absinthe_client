@@ -1,5 +1,5 @@
 %{
-  "absinthe": {:git, "https://github.com/absinthe-graphql/absinthe.git", "a9fe503225a1c8642f9240a4b7bbe6888f89beb9", []},
+  "absinthe": {:hex, :absinthe, "1.5.0-alpha.4", "fa6dbd492db949a1193c57ddf9f382c55247082774b2b7ddd1bb44c4472e1a6b", [:mix], [{:dataloader, "~> 1.0.0", [hex: :dataloader, repo: "hexpm", optional: true]}, {:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}, {:nimble_parsec, "~> 0.4", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm"},
   "nimble_parsec": {:hex, :nimble_parsec, "0.5.0", "90e2eca3d0266e5c53f8fbe0079694740b9c91b6747f2b7e3c5d21966bba8300", [:mix], [], "hexpm"},
   "telemetry": {:hex, :telemetry, "0.4.0", "8339bee3fa8b91cb84d14c2935f8ecf399ccd87301ad6da6b71c09553834b2ab", [:rebar3], [], "hexpm"},
 }
